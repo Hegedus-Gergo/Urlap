@@ -1,0 +1,49 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urlap Hegedüs Gergő</title>
+    <link rel="stylesheet" href="urlap.css">
+</head>
+
+<body>
+    <h1><strong>Szállítási cím módosítása</strong></h1>
+    <hr>
+    <form>
+        <label>Név<span>*</span></label>
+        <label id="tele">Telefonszám<span>*</span></label>
+        <br>
+        <input type="text" required class="pirosborder" id="nev">
+        <select>
+            <option>36</option>
+            <option>380</option>
+            <option>1</option>
+        </select>
+        <input type="text" required class="pirosborder" id="tel">
+        <br>
+        <label>Irányítószám<span>*</span></label><label id="varos">Város<span>*</span></label>
+        <br>
+        <input type="text" required class="io">
+        <select class="vc">
+            <option>Debrecen</option>
+            <option>Derecske</option>
+            <option>Budapest</option>
+        </select>
+        <br>
+        <label>Ország<span>*</span></label><label id="cimp">Cím<span>*</span></label>
+        <br>
+        
+        <select class="io">
+            <option>Magyarország</option>
+            <option>Ukrajna</option>
+            <option>USA</option>
+        </select>
+        <input type="text" required class="vc">
+        <br>
+        <input type="submit" value="Mentés" id="mentes">
+    </form>
+</body>
+
+</html>
